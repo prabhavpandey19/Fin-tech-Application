@@ -1,0 +1,78 @@
+.hrc-logo {
+  text-align: left;
+  padding-top: 1%;
+  padding-left: 3%;
+  width: 100%;
+  max-width: 20%;
+  height: auto;
+}
+#txt {
+  margin-top: 22%;
+  background-color: #8FD163;
+  font-size: 2vw;
+  float: left;
+  color: #ffffff;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  padding-left: 5%;
+  padding-right: 0.5%;
+  border-radius: 0px 5px 5px 0px;
+  max-width: 42%;
+  height: auto;
+}
+
+.a2 {
+  width: 25vw;
+}
+
+#a1 {
+  color: rgb(112, 112, 112);
+  font-weight: 500;
+  font-size: 2vw;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+form {
+  float: right;
+  padding-top: 10%;
+  padding-right: 20%;
+}
+
+form > label {
+  margin-bottom: 15vw;
+  color: rgb(46, 46, 46);
+  font-size: 16px;
+}
+
+form > input {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  border: none;
+  border-bottom: 2px solid rgb(252, 153, 87);
+  width: 250px;
+  background-color: #EFF9FD;
+}
+
+form > input:focus {
+  outline: none;
+}
+
+form > button {
+  width: 8vw;
+  color: #fff;
+  background-color: grey;
+  border: none;
+  border-radius: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin-left: 70%;
+}
+
+form > button:disabled {
+  background-color: rgb(173, 173, 173);
+}

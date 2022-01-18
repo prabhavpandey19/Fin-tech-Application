@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HighRadius | Login</title>
+    <link rel="stylesheet" href="css/index.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Roboto";
+        background-image: url("./images/human-machine-hand-homepage-flipped.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="header">
+      <div class="header-logo-div">
+        <img src="images/hrc-logo.svg" alt="highradius-logo" class="hrc-logo" />
+      </div>
+    </section>
+
+    <div>
+      <div id="txt">ORDER MANAGEMENT APPLICATION</div>
+      <div class="form">
+        <form action="LogInServlet" method="post">
+          <p id="a1">Sign In</p>
+          <br />
+          <label for="userName"> Username </label><br />
+          <input class="a2" type="text" name="userName" /><br />
+          <label for="password">Password</label><br />
+          <input class="a2" type="password" name="password" /><br />
+          <p id="errorMessageDisplay" style="color: red; font-size: 1vw"></p>
+          <button type="submit" id="signin" disabled="disabled">Sign In</button>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
