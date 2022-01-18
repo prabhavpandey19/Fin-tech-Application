@@ -1,4 +1,4 @@
-# Highradius Winter Internship Dummy Project
+# Highradius Winter Internship Project
 
 > Before proceeding ahead with this workspace setup, please ensure that you have
 > downloaded and installed the required software stack.
